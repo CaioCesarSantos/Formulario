@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,19 +6,20 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.conte{
+.conte {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(/Web-Designer-x-Web-Developer-c-sem-sombra.png);
+    background-image: url(./Web-Designer-x-Web-Developer-c-sem-sombra.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.conteiner{
-    background-color: white;
+.conteiner {
+    background: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px gray;
     width: 450px;
@@ -26,54 +27,57 @@
     overflow: hidden;
 }
 
-.caixa{
+.caixa {
     background-color: #eee;
     padding: 20px;
     text-align: center;
     font-size: 25px;
+    
 }
 
-.form{
+
+.form {
     padding: 20px;
+
 }
 
-.caixa-form{
+.caixa-form {
     position: relative;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.caixa-form label{
+.caixa-form label {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-.caixa-form input{
+.caixa-form input {
     border: 2px solid #eee;
     display: block;
     border-radius: 10px;
     font-size: 15px;
     width: 100%;
     padding: 10px;
-
 }
 
 .caixa-form i {
     position: absolute;
-    top:45px;
+    top: 45px;
     right: 10px;
     visibility: hidden;
 }
 
-.caixa-form small{
+.caixa-form small {
     position: absolute;
-    bottom: 5px;
+    bottom: 5;
     left: 0;
     visibility: hidden;
 }
 
-.form button{
-    background-color: #00bfff;
-    border: 2px solid #00bfff;
+.form button {
+    background-color: #00BFFF;
+    border: 2px solid #00BFFF;
     font-weight: 800;
     color: white;
     font-size: 22px;
@@ -83,21 +87,23 @@
     cursor: pointer;
 }
 
-.caixa-form.sucess input{
-    border-color: #00ff00;
+
+.caixa-form.sucess input {
+    border-color: #00FF00;
+
 }
 
 .caixa-form.error input {
     border-color: red;
 }
 
-.caixa-form.caixa-form.sucess i.bx-check-circle{
-    color: #00ff00;
+.caixa-form.sucess i.bx-check-circle{
+    color: #00FF00;
     visibility: visible;
 }
 
 .caixa-form.error i.bx-error-circle{
-    color: red;
+    color:red;
     visibility: visible;
 }
 
